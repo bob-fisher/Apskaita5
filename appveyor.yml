@@ -3,4 +3,4 @@ build:
   project: Source/Apskaita5/Apskaita5.sln
 
 before_build:
-  - nuget restore
+  - nuget restore Source/Apskaita5/Apskaita5.sln
