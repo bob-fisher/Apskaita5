@@ -10,8 +10,8 @@ before_build:
 
 after_build:
   - rd /q /s de es fr it ja ko pt ru zh-CHS zh-CHT app.publish
-  - del /y Microsoft.VisualStudio.*
-  - del /y *.xml
+  - del /q Microsoft.VisualStudio.*
+  - del /q *.xml
 
 artifacts:
   - path: Source\Apskaita5\Apskaita3\Apskaita\bin\Release
