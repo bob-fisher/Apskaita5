@@ -10,7 +10,7 @@ before_build:
 
 after_build:
   - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\de 
-  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\es fr it ja ko pt ru zh-CHS zh-CHT app.publish
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\es
   - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\fr
   - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\it
   - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\ja
