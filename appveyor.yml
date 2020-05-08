@@ -2,3 +2,5 @@ build:
   parallel: true
   project: Source/Apskaita5/Apskaita5.sln
 
+before_build:
+  - nuget restore
