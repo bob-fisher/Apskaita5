@@ -48,3 +48,4 @@
 /Source/Apskaita5/PluginManager/bin/
 /Source/Apskaita5/PluginManager/obj/
 /Source/Apskaita5/AccCommon/bin/
+*.user
