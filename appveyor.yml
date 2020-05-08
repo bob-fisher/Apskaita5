@@ -8,6 +8,11 @@ build:
 before_build:
   - nuget restore Source/Apskaita5/Apskaita5.sln
 
+after_build:
+  - rd /q /s de es fr it ja ko pt ru zh-CHS zh-CHT app.publish
+  - del /y Microsoft.VisualStudio.*
+  - del /y *.xml
+
 artifacts:
   - path: Source\Apskaita5\Apskaita3\Apskaita\bin\Release
     name: Apskaita5
