@@ -1,6 +1,13 @@
+platform: Any CPU
+configuration: Release
+
 build:
   parallel: true
   project: Source/Apskaita5/Apskaita5.sln
 
 before_build:
   - nuget restore Source/Apskaita5/Apskaita5.sln
+
+artifacts:
+  - path: Source\Apskaita5\Apskaita3\Apskaita\bin\Release
+    name: Apskaita5
