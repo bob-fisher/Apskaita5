@@ -1,2 +1,6 @@
 build:
+  parallel: true
   project: Source/Apskaita5/Apskaita5.sln
+
+cache:
+  - Source/Apskaita5/packages -> **\packages.config
