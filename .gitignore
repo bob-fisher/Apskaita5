@@ -34,3 +34,17 @@
 /Source/Apskaita5/PluginManager/obj/x64/Debug
 /Source/Apskaita5/AccWebService/bin
 /Source/Apskaita5/Backup
+/Source/AccDataAccessLayer/AccDataAccessLayer/bin/
+/Source/Apskaita5/AccControlsWinForms/bin/
+/Source/Apskaita5/AccDataBindingsWinForms/bin/
+/Source/Apskaita5/AccDataProvider/bin/
+/Source/Apskaita5/AccDataProvider/obj/
+/Source/Apskaita5/AccIPlugin/bin/
+/Source/Apskaita5/AccIPlugin/obj/
+/Source/Apskaita5/AccMigration/bin/
+/Source/Apskaita5/Apskaita3/Apskaita/bin/
+/Source/Apskaita5/Apskaita5/bin/
+/Source/Apskaita5/ApskaitaRemotingServer/obj
+/Source/Apskaita5/PluginManager/bin/
+/Source/Apskaita5/PluginManager/obj/
+/Source/Apskaita5/AccCommon/bin/
