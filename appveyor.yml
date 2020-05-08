@@ -9,9 +9,19 @@ before_build:
   - nuget restore Source/Apskaita5/Apskaita5.sln
 
 after_build:
-  - rd /q /s de es fr it ja ko pt ru zh-CHS zh-CHT app.publish
-  - del /q Microsoft.VisualStudio.*
-  - del /q *.xml
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\de 
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\es fr it ja ko pt ru zh-CHS zh-CHT app.publish
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\fr
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\it
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\ja
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\ko
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\pt
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\ru
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\zh-CHS 
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\zh-CHT 
+  - rd /q /s Source\Apskaita5\Apskaita3\Apskaita\bin\Release\app.publish
+  - del /q Source\Apskaita5\Apskaita3\Apskaita\bin\Release\Microsoft.VisualStudio.*
+  - del /q Source\Apskaita5\Apskaita3\Apskaita\bin\Release\*.xml
 
 artifacts:
   - path: Source\Apskaita5\Apskaita3\Apskaita\bin\Release
